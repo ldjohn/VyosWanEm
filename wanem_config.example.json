@@ -1,0 +1,49 @@
+{
+  "vyos_base_url": "https://192.168.6.10",
+  "verify_tls": false,
+  "max_delay_ms": 2000,
+  "interfaces": [
+    {
+      "name": "eth2",
+      "policy": "WANEM-1",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    },
+    {
+      "name": "eth3",
+      "policy": "WANEM-2",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    },
+    {
+      "name": "eth4",
+      "policy": "WANEM-3",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    },
+    {
+      "name": "eth5",
+      "policy": "WANEM-4",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    },
+    {
+      "name": "eth6",
+      "policy": "WANEM-5",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    },
+    {
+      "name": "eth7",
+      "policy": "WANEM-6",
+      "bandwidth": "10mbit",
+      "direction": "egress",
+      "default_delay_ms": 10
+    }
+  ]
+}
