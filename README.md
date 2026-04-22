@@ -311,54 +311,6 @@ Notes:
 
 ---
 
-## Project layout
-
-Typical files:
-
-```text
-app.py
-README.md
-requirements.txt
-LICENSE
-.gitignore
-wanem_config.example.json
-```
-
-Recommended local-only file:
-
-```text
-wanem_config.json
-```
-
----
-
-## Security notes
-
-This project is for lab use and needs some care before wider use.
-
-### Do not commit secrets
-
-Do not hardcode or commit:
-
-- live API keys
-- private router addresses you do not want published
-- lab-specific secrets
-
-Use environment variables for the API key:
-
-```bash
-export VYOS_API_KEY='your-api-key'
-```
-
-### Keep local config out of git
-
-Your real `wanem_config.json` should usually stay local.
-
-Commit a safe example file instead, such as:
-
-```text
-wanem_config.example.json
-```
 
 ### TLS verification
 
